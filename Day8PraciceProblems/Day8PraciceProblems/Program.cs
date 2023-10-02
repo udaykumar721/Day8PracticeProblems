@@ -12,8 +12,10 @@ namespace Day8PraciceProblems
         {
             //EmployeeIsPresentOrNot epom = new EmployeeIsPresentOrNot();
             //epom.EmployeePresentOrAbsent();
-            CaluculateDailyEmployeeWage cedw = new CaluculateDailyEmployeeWage();
-            cedw.CheckEmployeeWageDaily();
+            //CaluculateDailyEmployeeWage cedw = new CaluculateDailyEmployeeWage();
+            //cedw.CheckEmployeeWageDaily();
+            AddPartTimeEmployeeAndWage add = new AddPartTimeEmployeeAndWage();
+            add.PartTimeEmployeeAndWage();
             Console.ReadLine();
         }
     }
