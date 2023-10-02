@@ -10,8 +10,10 @@ namespace Day8PraciceProblems
     {
         static void Main(string[] args)
         {
-            EmployeeIsPresentOrNot epom = new EmployeeIsPresentOrNot();
-            epom.EmployeePresentOrAbsent();
+            //EmployeeIsPresentOrNot epom = new EmployeeIsPresentOrNot();
+            //epom.EmployeePresentOrAbsent();
+            CaluculateDailyEmployeeWage cedw = new CaluculateDailyEmployeeWage();
+            cedw.CheckEmployeeWageDaily();
             Console.ReadLine();
         }
     }
